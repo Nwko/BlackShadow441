@@ -1,0 +1,53 @@
+.nav {
+    display: flex; 
+    gap: 0.5rem;
+}
+
+.a {
+    flex: 1;
+    background-color: #252525;
+    color: #fff;
+    border: 1px solid;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.7s ease-out;
+}
+
+a:hover,
+a:focus {
+    background-color: #a3a3a3;
+    color: #fff;
+}
+
+
+.scroller {
+    height: 100%;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.scroller section {
+    scroll-snap-align: start;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.h {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #a3a3a3;
+}
+
+p {
+    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    color: rgba(0, 132, 255, 0.664);
+}

@@ -1,5 +1,5 @@
 body {
-    background-color: #ffffff;
+    background-color: #ffffff3d;
 }
 
 .main {
@@ -37,6 +37,6 @@ h3 {
 
 img {
     object-position: center;    
-    height: 1080px;
-    width:  320px;
+    height: 320;
+    width:  1080px;
 }
