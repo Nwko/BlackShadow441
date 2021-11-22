@@ -1,0 +1,26 @@
+{
+    "short-name": "Lorem Ipsum",
+    "name": "Lorem Ipsum",
+    "icons": [
+        {
+            "src": "/public/icon-128.png",
+            "type": "image/png",
+            "sizes": "128x128"
+        },
+        {
+            "src": "/public/icon-256.png",
+            "type": "image/png",
+            "sizes": "256x256"
+        },
+        {
+            "src": "/public/icon-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start-url": "/pages/index.html",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "scope": "/main/",
+    "theme_color": "#ffffff"
+}

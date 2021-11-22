@@ -1,0 +1,42 @@
+body {
+    background-color: #ffffff;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    color: rgba(0, 132, 255, 0.664);
+}
+
+h2 {
+    font-size: 1.2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: rgba(179, 255, 0, 0.4);
+}
+
+h3 {
+    font-size: 1.1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #ff9900;
+}
+
+img {
+    object-position: center;    
+    height: 1080px;
+    width:  320px;
+}
