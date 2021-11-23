@@ -1,4 +1,6 @@
 .nav {
+    animation-name: SlideIn;
+    animation-duration: 3s;
     display: flex; 
     gap: 0.5rem;
 }
@@ -43,11 +45,58 @@ a:focus {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #a3a3a3;
 }
-
-p {
+/* 
+p { 
     font-size: 1.5em;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     text-align: center;
     color: rgba(0, 132, 255, 0.664);
+} */
+
+p {
+    animation: 5s, 5s, 3s;
+    animation-name: SlideIn, FadeInOut, BottomToTop;
+    animation-iteration-count: 1, 1, 1;
+}
+
+@keyframes SlideIn {
+    from {
+        margin-left: 100%;
+        width: 300%
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+@keyframes FadeInOut {
+    from {
+        opacity: 0%;
+    }
+
+    75% {
+        font-size: 300%;
+        margin-left: 25%;
+        width: 150%;
+    }
+
+    to {
+        margin-top: 0%;
+        width: 100%;
+    }
+}
+
+@keyframes BottomToTop {
+    from {
+        margin-top: 100%;
+        width: 100%;
+    }
+
+    to {
+        margin-top: 0%;
+        width: 100%;
+    }
 }
