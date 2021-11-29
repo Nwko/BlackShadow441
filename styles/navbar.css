@@ -1,7 +1,10 @@
+/*Useless code*/
+
 .navbar {
     text-align: center; 
     gap: 1px;
     background-color: #ffd900;
+    display: flex;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -9,7 +12,8 @@ a {
     text-align: center;
     text-decoration: none;
     text-decoration-style: none;
-    color: whitesmoke;
+    color: #a3a3a3;
+    display: flex;
     transition: all 0.7s ease-in-out;
 }
 
@@ -18,3 +22,5 @@ a:focus {
     color: #eed754;
     background-color: #ffff;
 }
+
+/*Doesn't work as intended but I'm lazy to fix it since I already got one which works which I pretty much copied :P*/

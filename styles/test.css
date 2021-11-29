@@ -1,15 +1,23 @@
+body {
+    background-color: #616161;
+    cursor: crosshair;
+    background: url(../public/background.png);
+}
+
 .nav {
+    font-size: 17px;
+    font-family: 'Fira Code', monospace;
     animation-name: SlideIn;
     animation-duration: 3s;
-    display: flex; 
+    display: flex;
     gap: 0.5rem;
 }
 
 .a {
     flex: 1;
-    background-color: #252525;
-    color: #fff;
-    border: 1px solid;
+    background-color: #525252;
+    color: #bdbdbd;
+    border: 3px solid;
     padding: 0.5rem;
     text-align: center;
     text-decoration: none;
@@ -22,39 +30,9 @@ a:focus {
     color: #fff;
 }
 
-
-.scroller {
-    height: 100%;
-    overflow-y: scroll;
-    scroll-snap-type: y mandatory;
-}
-
-.scroller section {
-    scroll-snap-align: start;
-}
-
-.content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
-
-.h {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: #a3a3a3;
-}
-/* 
 p { 
-    font-size: 1.5em;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    text-align: center;
-    color: rgba(0, 132, 255, 0.664);
-} */
-
-p {
+    font-size: larger;
+    color: #ffffff;
     animation: 5s, 5s, 3s;
     animation-name: SlideIn, FadeInOut, BottomToTop;
     animation-iteration-count: 1, 1, 1;
@@ -78,8 +56,8 @@ p {
     }
 
     75% {
-        font-size: 300%;
-        margin-left: 25%;
+        font-size: 195%; /*Change to how ever it seems fit to all text*/
+        margin-left: 23%;
         width: 150%;
     }
 
