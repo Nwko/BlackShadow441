@@ -1,80 +1,92 @@
 body {
-    background-color: #616161;
-    cursor: crosshair;
-    /* background: url(../assets/background.png); */
+  background-color: #616161;
+  cursor: crosshair;
+}
+
+noscript {
+  flex: auto;
+  background-color: #616161;
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: 'Fira Code', monospace;
+  text-align: center;
+  padding: 1em;
+  border-radius: 0.5em;
+  border: 1px solid #fff;
 }
 
 .nav {
-    font-size: 17px;
-    font-family: 'Fira Code', monospace;
-    animation-name: SlideIn;
-    animation-duration: 3s;
-    display: flex;
-    gap: 0.5rem;
+  font-size: 17px;
+  font-family: "Fira Code", monospace;
+  animation-name: SlideIn;
+  animation-duration: 3s;
+  display: flex;
+  gap: 0.5rem;
 }
 
 .a {
-    flex: 1;
-    background-color: #525252;
-    color: #bdbdbd;
-    border: 3px solid;
-    padding: 0.5rem;
-    text-align: center;
-    text-decoration: none;
-    transition: all 0.7s ease-out;
+  flex: 1;
+  background-color: #525252;
+  color: #bdbdbd;
+  border: 3px solid;
+  padding: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.7s ease-out;
 }
 
 a:hover,
 a:focus {
-    background-color: #a3a3a3;
-    color: #fff;
+  background-color: #a3a3a3;
+  color: #fff;
 }
 
-p { 
-    font-size: larger;
-    color: #ffffff;
-    animation: 5s, 5s, 3s;
-    animation-name: SlideIn, FadeInOut, BottomToTop;
-    animation-iteration-count: 1, 1, 1;
+p {
+  font-size: larger;
+  color: #ffffff;
+  animation: 5s, 5s, 3s;
+  animation-name: SlideIn, FadeInOut, BottomToTop;
+  animation-iteration-count: 1, 1, 1;
 }
 
 @keyframes SlideIn {
-    from {
-        margin-left: 100%;
-        width: 300%
-    }
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
 
-    to {
-        margin-left: 0%;
-        width: 100%;
-    }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 @keyframes FadeInOut {
-    from {
-        opacity: 0%;
-    }
+  from {
+    opacity: 0%;
+  }
 
-    75% {
-        font-size: 195%; /*Change to how ever it seems fit to all text*/
-        margin-left: 23%;
-        width: 150%;
-    }
+  75% {
+    font-size: 195%; /*Change to how ever it seems fit to all text*/
+    margin-left: 23%;
+    width: 150%;
+  }
 
-    to {
-        margin-top: 0%;
-        width: 100%;
-    }
+  to {
+    margin-top: 0%;
+    width: 100%;
+  }
 }
 
 @keyframes BottomToTop {
-    from {
-        margin-top: 100%;
-        width: 100%;
-    }
+  from {
+    margin-top: 100%;
+    width: 100%;
+  }
 
-    to {
-        margin-top: 0%;
-        width: 100%;
-    }
+  to {
+    margin-top: 0%;
+    width: 100%;
+  }
 }
