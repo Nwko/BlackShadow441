@@ -1,6 +1,12 @@
 body {
   background-color: #616161;
-  cursor: crosshair;
+  cursor: default, url("../assets/icon-128.png");
+}
+
+.scroll {
+  overflow-y: scroll;
+  height: 100px;
+  background-image: url("../assets/icon-128.png");
 }
 
 noscript {
@@ -9,7 +15,7 @@ noscript {
   color: #fff;
   font-size: 1.5em;
   font-weight: bold;
-  font-family: 'Fira Code', monospace;
+  font-family: "Fira Code", monospace;
   text-align: center;
   padding: 1em;
   border-radius: 0.5em;
