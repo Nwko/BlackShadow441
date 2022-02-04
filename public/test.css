@@ -1,6 +1,8 @@
 body {
-  background-color: #616161;
-  cursor: default, url("../assets/icon-128.png");
+  background: #616161;
+  display: flexbox;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: flex;
 }
 
 .scroll {
@@ -34,7 +36,7 @@ noscript {
 .a {
   flex: 1;
   background-color: #525252;
-  color: #bdbdbd;
+  /* color: #bdbdbd; */
   border: 3px solid;
   padding: 0.5rem;
   text-align: center;
@@ -51,44 +53,24 @@ a:focus {
 p {
   font-size: larger;
   color: #ffffff;
-  animation: 5s, 5s, 3s;
-  animation-name: SlideIn, FadeInOut, BottomToTop;
-  animation-iteration-count: 1, 1, 1;
+  animation: 5s;
+  animation-name: SlideIn;
+  animation-iteration-count: 1;
 }
 
-@keyframes SlideIn {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
+button {
+  font-size: smaller;
+  color: #bdbdbd;
+  border: 3px solid;
+  padding: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.7s ease-out;
 }
 
 @keyframes FadeInOut {
   from {
     opacity: 0%;
-  }
-
-  75% {
-    font-size: 195%; /*Change to how ever it seems fit to all text*/
-    margin-left: 23%;
-    width: 150%;
-  }
-
-  to {
-    margin-top: 0%;
-    width: 100%;
-  }
-}
-
-@keyframes BottomToTop {
-  from {
-    margin-top: 100%;
-    width: 100%;
   }
 
   to {
